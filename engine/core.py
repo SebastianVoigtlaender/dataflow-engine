@@ -1,0 +1,1 @@
+class FlowEngine:\n    def __init__(self):\n        self.nodes = []\n        self.edges = []\n    \n    def add_node(self, node):\n        self.nodes.append(node)\n    \n    def add_edge(self, from_node, to_node):\n        self.edges.append((from_node, to_node))\n\n    def run(self, input_data):\n        print('Executing AI Dataflow Graph...')\n        return input_data
