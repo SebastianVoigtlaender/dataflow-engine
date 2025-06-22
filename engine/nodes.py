@@ -1,0 +1,1 @@
+class Node:\n    def __init__(self, name):\n        self.name = name

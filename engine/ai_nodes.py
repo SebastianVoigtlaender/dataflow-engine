@@ -1,0 +1,1 @@
+class InferenceNode:\n    def __init__(self, model_id):\n        self.model_id = model_id\n    \n    def process(self, data):\n        return f'Inference result for {self.model_id} on {data}'
