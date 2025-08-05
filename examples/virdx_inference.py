@@ -1,0 +1,1 @@
+from engine.core import FlowEngine\nfrom engine.ai_nodes import InferenceNode\n\nengine = FlowEngine()\nmodel = InferenceNode('VIRDX-Cancer-Classifier-v1')\nengine.add_node(model)\nprint(model.process('MRI-Sample-001'))
